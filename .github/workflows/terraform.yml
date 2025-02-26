@@ -15,7 +15,7 @@ env:
 
 jobs:
   terraform:
-    if: github.repository != 'learn-terraform-github-actions'
+    if: github.repository != 'rbilli51614/learn-terraform-github-actions'
     name: "Terraform Plan"
     runs-on: ubuntu-latest
     permissions:
